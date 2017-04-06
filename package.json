@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"feed-read",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "feed-read",
+    "description": "api documentation for [feed-read (v0.0.1)](https://github.com/sentientwaffle/feed-read) [![npm package](https://img.shields.io/npm/v/npmdoc-feed-read.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-feed-read) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-feed-read.svg)](https://travis-ci.org/npmdoc/node-npmdoc-feed-read)",
     "devDependencies": {
-        "feed-read": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "feed-read": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-feed-read",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-feed-read",
+    "keywords": [
+        "documentation",
+        "feed-read"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_feed_read.js",
+    "name": "npmdoc-feed-read",
+    "nameAlias": "npmdoc_feed_read",
+    "nameOriginal": "npmdoc-feed-read",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-feed-read"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }

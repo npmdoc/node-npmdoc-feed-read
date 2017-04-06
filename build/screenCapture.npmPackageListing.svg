@@ -1,15 +1,15 @@
 <svg height="190" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="190" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-06 22:20:30 +0000   308944 byte  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-06 22:20:30 +0000     1084 byte  LICENSE</tspan>
-<tspan x="10" y="58">  2.  2017-04-06 22:20:30 +0000     1189 byte  README.md</tspan>
-<tspan x="10" y="74">  3.  2017-04-06 22:20:30 +0000     7968 byte  index.js</tspan>
-<tspan x="10" y="90">  4.  2017-04-06 22:20:30 +0000     2252 byte  package.json</tspan>
-<tspan x="10" y="106">  5.  2017-04-06 22:20:30 +0000     2423 byte  test/fixtures/atom.xml</tspan>
-<tspan x="10" y="122">  6.  2017-04-06 22:20:30 +0000    47614 byte  test/fixtures/google-news.rss</tspan>
-<tspan x="10" y="138">  7.  2017-04-06 22:20:30 +0000    37406 byte  test/fixtures/rss.xml</tspan>
-<tspan x="10" y="154">  8.  2017-04-06 22:20:30 +0000   202703 byte  test/fixtures/techcrunch.rss</tspan>
-<tspan x="10" y="170">  9.  2017-04-06 22:20:30 +0000     6305 byte  test/index.test.js</tspan>
+<tspan x="10" y="26">  0.  2017-04-06 22:22:04 +0000   308944 byte  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-06 22:22:04 +0000     1084 byte  LICENSE</tspan>
+<tspan x="10" y="58">  2.  2017-04-06 22:22:04 +0000     1189 byte  README.md</tspan>
+<tspan x="10" y="74">  3.  2017-04-06 22:22:04 +0000     7968 byte  index.js</tspan>
+<tspan x="10" y="90">  4.  2017-04-06 22:22:04 +0000     2252 byte  package.json</tspan>
+<tspan x="10" y="106">  5.  2017-04-06 22:22:04 +0000     2423 byte  test/fixtures/atom.xml</tspan>
+<tspan x="10" y="122">  6.  2017-04-06 22:22:04 +0000    47614 byte  test/fixtures/google-news.rss</tspan>
+<tspan x="10" y="138">  7.  2017-04-06 22:22:04 +0000    37406 byte  test/fixtures/rss.xml</tspan>
+<tspan x="10" y="154">  8.  2017-04-06 22:22:04 +0000   202703 byte  test/fixtures/techcrunch.rss</tspan>
+<tspan x="10" y="170">  9.  2017-04-06 22:22:04 +0000     6305 byte  test/index.test.js</tspan>
 </text>
 </svg>

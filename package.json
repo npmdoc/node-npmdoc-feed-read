@@ -1,7 +1,7 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
     "buildNpmdoc": "feed-read",
-    "description": "api documentation for [feed-read (v0.0.1)](https://github.com/sentientwaffle/feed-read) [![npm package](https://img.shields.io/npm/v/npmdoc-feed-read.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-feed-read) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-feed-read.svg)](https://travis-ci.org/npmdoc/node-npmdoc-feed-read)",
+    "description": "#### api documentation for  [feed-read (v0.0.1)](https://github.com/sentientwaffle/feed-read)  [![npm package](https://img.shields.io/npm/v/npmdoc-feed-read.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-feed-read) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-feed-read.svg)](https://travis-ci.org/npmdoc/node-npmdoc-feed-read)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "feed-read": "*",
@@ -36,5 +36,5 @@
         "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "0.0.2"
 }
